@@ -1,0 +1,883 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"23 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ADC.c
+[e E874 . `uc
+Adc_Prescale_2 0
+Adc_Prescale_8 1
+Adc_Prescale_32 2
+Adc_prescale_internal_RC 3
+Adc_Prescale_4 4
+Adc_Prescale_16 5
+Adc_Prescale_64 6
+Adc_Prescale_128 7
+]
+[e E860 . `uc
+ADC_ALIGN_LEFT 0
+ADC_ALIGN_RIGHT 1
+]
+"42
+[e E864 . `uc
+Adc_channel0 0
+Adc_channel1 1
+Adc_channel2 2
+Adc_channel3 3
+Adc_channel4 4
+Adc_channel5 5
+Adc_channel6 6
+Adc_channel7 7
+]
+"14 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ADC_PBcfg.c
+[e E874 . `uc
+Adc_Prescale_2 0
+Adc_Prescale_8 1
+Adc_Prescale_32 2
+Adc_prescale_internal_RC 3
+Adc_Prescale_4 4
+Adc_Prescale_16 5
+Adc_Prescale_64 6
+Adc_Prescale_128 7
+]
+[e E860 . `uc
+ADC_ALIGN_LEFT 0
+ADC_ALIGN_RIGHT 1
+]
+"32 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\LM35.c
+[e E877 . `uc
+Adc_channel0 0
+Adc_channel1 1
+Adc_channel2 2
+Adc_channel3 3
+Adc_channel4 4
+Adc_channel5 5
+Adc_channel6 6
+Adc_channel7 7
+]
+"21 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ElectricWaterHeater.c
+[e E998 . `uc
+OFF_STATE 0
+TIME_SETTING_STATE 1
+TEMP_CONTROLLING_STATE 2
+]
+"221
+[e E916 . `uc
+Adc_Prescale_2 0
+Adc_Prescale_8 1
+Adc_Prescale_32 2
+Adc_prescale_internal_RC 3
+Adc_Prescale_4 4
+Adc_Prescale_16 5
+Adc_Prescale_64 6
+Adc_Prescale_128 7
+]
+[e E902 . `uc
+ADC_ALIGN_LEFT 0
+ADC_ALIGN_RIGHT 1
+]
+"23 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ADC.c
+[v _Adc_init Adc_init `(v  1 e 1 0 ]
+"42
+[v _Adc_readChannel Adc_readChannel `(us  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"14 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\DIO.c
+[v _Dio_Init Dio_Init `(v  1 e 1 0 ]
+"42
+[v _Dio_WritePort Dio_WritePort `(v  1 e 1 0 ]
+"142
+[v _Dio_WriteChannel Dio_WriteChannel `(v  1 e 1 0 ]
+"202
+[v _Dio_ReadChannel Dio_ReadChannel `(uc  1 e 1 0 ]
+"250
+[v _Dio_FlipChannel Dio_FlipChannel `(uc  1 e 1 0 ]
+"52 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ElectricWaterHeater.c
+[v _SW_Task SW_Task `(v  1 e 1 0 ]
+"82
+[v _TempSensing_Task TempSensing_Task `(v  1 e 1 0 ]
+"104
+[v _Display_Task Display_Task `(v  1 e 1 0 ]
+"118
+[v _Active_Task Active_Task `(v  1 e 1 0 ]
+"132
+[v _TempControl_State TempControl_State `(v  1 e 1 0 ]
+"161
+[v _TempSetting_State TempSetting_State `(v  1 e 1 0 ]
+"192
+[v _EWH_updateState EWH_updateState `(v  1 e 1 0 ]
+"216
+[v _EWH_initTask EWH_initTask `(v  1 e 1 0 ]
+"4 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\external_eeprom.c
+[v _externalEEPROM_init externalEEPROM_init `(v  1 e 1 0 ]
+"8
+[v _externalEEPROM_writeU8Data externalEEPROM_writeU8Data `(v  1 e 1 0 ]
+"18 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\fan.c
+[v _fan_setConfigurations fan_setConfigurations `(v  1 s 1 fan_setConfigurations ]
+"25
+[v _Fan_init Fan_init `(v  1 e 1 0 ]
+"31
+[v _Fan_On Fan_On `(v  1 e 1 0 ]
+"35
+[v _Fan_Off Fan_Off `(v  1 e 1 0 ]
+"17 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Heater.c
+[v _Heater_setConfigurations Heater_setConfigurations `(v  1 s 1 Heater_setConfigurations ]
+"24
+[v _Heater_init Heater_init `(v  1 e 1 0 ]
+"30
+[v _Heater_On Heater_On `(v  1 e 1 0 ]
+"34
+[v _Heater_Off Heater_Off `(v  1 e 1 0 ]
+"9 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\i2c.c
+[v _I2c_setConfigurations I2c_setConfigurations `(v  1 e 1 0 ]
+"21
+[v _i2c_WaitForIdle i2c_WaitForIdle `(v  1 s 1 i2c_WaitForIdle ]
+"28
+[v _i2c_Ack i2c_Ack `(v  1 s 1 i2c_Ack ]
+"35
+[v _i2c_NoAck i2c_NoAck `(v  1 s 1 i2c_NoAck ]
+"43
+[v _I2C_Init I2C_Init `(v  1 e 1 0 ]
+"51
+[v _I2C_Restart I2C_Restart `(v  1 e 1 0 ]
+"57
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+"63
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+"70
+[v _I2C_Write I2C_Write `(v  1 e 1 0 ]
+"79
+[v _I2C_Read I2C_Read `(uc  1 e 1 0 ]
+"8 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\INTHandelrs.c
+[v _Main_ISR Main_ISR `II(v  1 e 1 0 ]
+"29
+[v _Tmr1_setCallback Tmr1_setCallback `(v  1 e 1 0 ]
+"17 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Led.c
+[v _LED_setConfigurations LED_setConfigurations `(v  1 s 1 LED_setConfigurations ]
+"24
+[v _LED_init LED_init `(v  1 e 1 0 ]
+"16 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\LM35.c
+[v _lm35_setConfigurations lm35_setConfigurations `(v  1 s 1 lm35_setConfigurations ]
+"22
+[v _LM35_Init LM35_Init `(v  1 e 1 0 ]
+"27
+[v _LM35_ReadTemp LM35_ReadTemp `(us  1 e 2 0 ]
+"9 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"14 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Os.c
+[v _Os_start Os_start `(v  1 e 1 0 ]
+"38
+[v _Os_newTimerTick Os_newTimerTick `(v  1 e 1 0 ]
+"69
+[v _Os_sch Os_sch `(v  1 e 1 0 ]
+"14 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Port.c
+[v _Port_SetDirection Port_SetDirection `(v  1 e 1 0 ]
+"36
+[v _Port_SetPortDirection Port_SetPortDirection `(v  1 e 1 0 ]
+"33 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\SSD.c
+[v _SSD_setConfigurations SSD_setConfigurations `(v  1 s 1 SSD_setConfigurations ]
+"48
+[v _Disp_init Disp_init `(v  1 e 1 0 ]
+"56
+[v _Disp_updateValue Disp_updateValue `(v  1 e 1 0 ]
+"67
+[v _Disp_turnDiplaysOff Disp_turnDiplaysOff `(v  1 e 1 0 ]
+"72
+[v _Disp_updateValue_blink Disp_updateValue_blink `(v  1 e 1 0 ]
+"18 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\SW.c
+[v _SW_setConfigurations SW_setConfigurations `(v  1 s 1 SW_setConfigurations ]
+"28
+[v _SW_init SW_init `(v  1 e 1 0 ]
+"32
+[v _SW_updateState SW_updateState `(v  1 e 1 0 ]
+"48
+[v _SW_UpdateStates SW_UpdateStates `(uc  1 e 1 0 ]
+"61
+[v _SW_getState SW_getState `(uc  1 e 1 0 ]
+"64
+[v _SW_updateSamples SW_updateSamples `(v  1 e 1 0 ]
+"26 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\timer.c
+[v _SysTimer_start SysTimer_start `(v  1 e 1 0 ]
+"17 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ADC.c
+[v _Adc_Status Adc_Status `uc  1 s 1 Adc_Status ]
+[s S34 . 2 `E874 1 prescale 1 0 `E860 1 aligment 1 1 ]
+"14 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ADC_PBcfg.c
+[v _Adc_configuration Adc_configuration `DCS34  1 e 2 0 ]
+"166 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"216
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"278
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"402
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+"641
+[v _TMR1L TMR1L `VEuc  1 e 1 @14 ]
+"648
+[v _TMR1H TMR1H `VEuc  1 e 1 @15 ]
+"808
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"815
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1561
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"1823
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1830
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2374
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"2377
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"2413
+[v _BF BF `VEb  1 e 0 @1184 ]
+"2569
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2605
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"2629
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2632
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"2737
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"2791
+[v _RSEN RSEN `VEb  1 e 0 @1161 ]
+"2800
+[v _R_W R_W `VEb  1 e 0 @1186 ]
+"2806
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"2857
+[v _T1CKPS0 T1CKPS0 `VEb  1 e 0 @132 ]
+"2860
+[v _T1CKPS1 T1CKPS1 `VEb  1 e 0 @133 ]
+"2884
+[v _TMR1CS TMR1CS `VEb  1 e 0 @129 ]
+"2887
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1120 ]
+"2890
+[v _TMR1IF TMR1IF `VEb  1 e 0 @96 ]
+"2893
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"10 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\DIO.c
+[v _Dio_status Dio_status `uc  1 s 1 Dio_status ]
+[s S83 . 2 `uc 1 port_number 1 0 `uc 1 channel_number 1 1 ]
+"11
+[v _Dio_configuredChannels Dio_configuredChannels `*.4S83  1 s 1 Dio_configuredChannels ]
+"12
+[v _Dio_configuredPorts Dio_configuredPorts `*.4uc  1 s 1 Dio_configuredPorts ]
+[s S83 . 2 `uc 1 port_number 1 0 `uc 1 channel_number 1 1 ]
+"14 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\DIO_PBcfg.c
+[s S86 . 17 `[8]S83 1 Dio_channels 16 0 `[1]uc 1 Dio_ports 1 16 ]
+[v _DIO_configuration DIO_configuration `S86  1 e 17 0 ]
+"21 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ElectricWaterHeater.c
+[v _g_curr_heater_state g_curr_heater_state `E998  1 e 1 0 ]
+[s S326 . 5 `uc 1 g_avg_waterTemp 1 0 `uc 1 g_Curr_temp_readings 1 1 `uc 1 g_required_Temp 1 2 `us 1 g_curr_waterTemp 2 3 ]
+"24
+[v _EWH_TempSettings EWH_TempSettings `S326  1 e 5 0 ]
+[s S331 . 3 `uc 1 tempsensingTime 1 0 `us 1 lastpressedswTime 2 1 ]
+"32
+[v _EWH_SysTimes EWH_SysTimes `S331  1 e 3 0 ]
+[s S334 . 1 `uc 1 SW_pressed_flag 1 0 :1:0 
+`uc 1 temp_sensing_time_flag 1 0 :1:1 
+`uc 1 display_time_flag 1 0 :1:2 
+`uc 1 led_time_flag 1 0 :1:3 
+`uc 1 pressed_Sw_timeout 1 0 :1:4 
+`uc 1 SW_time_flag 1 0 :1:5 
+`uc 1 RESERVED 1 0 :2:6 
+]
+"38
+[v _EWH_SysFlags EWH_SysFlags `S334  1 e 1 0 ]
+[s S141 . 3 `uc 1 port 1 0 `uc 1 pin_num 1 1 `uc 1 direction 1 2 ]
+"16 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\fan.c
+[v _g_coolingElement_config g_coolingElement_config `S141  1 s 3 g_coolingElement_config ]
+"15 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Heater.c
+[v _g_HeatingElement_config g_HeatingElement_config `S141  1 s 3 g_HeatingElement_config ]
+"5 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\i2c.c
+[v _g_SCL_config g_SCL_config `S141  1 s 3 g_SCL_config ]
+"6
+[v _g_SDA_config g_SDA_config `S141  1 s 3 g_SDA_config ]
+"5 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\INTHandelrs.c
+[v _g_TMR1_callback_ptr g_TMR1_callback_ptr `*.27(v  1 s 1 g_TMR1_callback_ptr ]
+"6
+[v _g_ExtINT_callback_ptr g_ExtINT_callback_ptr `*.27(v  1 s 1 g_ExtINT_callback_ptr ]
+"15 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Led.c
+[v _g_LED_Config g_LED_Config `S141  1 s 3 g_LED_Config ]
+"14 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\LM35.c
+[v _g_lm35_config g_lm35_config `S141  1 s 3 g_lm35_config ]
+"34 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Os.c
+[v _sw sw `uc  1 e 1 0 ]
+"16 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\SSD.c
+[v _g_SSD_DataArr g_SSD_DataArr `[10]uc  1 s 10 g_SSD_DataArr ]
+[s S201 . 2 `uc 1 port 1 0 `uc 1 direction 1 1 ]
+"29
+[v _g_SSD_DataPortConfig g_SSD_DataPortConfig `S201  1 s 2 g_SSD_DataPortConfig ]
+"30
+[v _g_SSD_DISP1_Enable_config g_SSD_DISP1_Enable_config `S141  1 s 3 g_SSD_DISP1_Enable_config ]
+"31
+[v _g_SSD_DISP2_Enable_config g_SSD_DISP2_Enable_config `S141  1 s 3 g_SSD_DISP2_Enable_config ]
+[s S141 . 3 `uc 1 port 1 0 `uc 1 pin_num 1 1 `uc 1 direction 1 2 ]
+"15 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\SW.c
+[v _g_SW_configs g_SW_configs `*.4S141  1 e 1 0 ]
+"16
+[v _g_sw_states g_sw_states `[3]uc  1 e 3 0 ]
+"14 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\SW_PBcfg.c
+[s S219 . 9 `[3]S141 1 SW_configured_channels 9 0 ]
+[v _SW_Configurations SW_Configurations `S219  1 e 9 0 ]
+"9 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"12
+} 0
+"14 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Os.c
+[v _Os_start Os_start `(v  1 e 1 0 ]
+{
+"32
+} 0
+"29 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\INTHandelrs.c
+[v _Tmr1_setCallback Tmr1_setCallback `(v  1 e 1 0 ]
+{
+[v Tmr1_setCallback@a_ptr a_ptr `*.27(v  1 a 1 wreg ]
+[v Tmr1_setCallback@a_ptr a_ptr `*.27(v  1 a 1 wreg ]
+[v Tmr1_setCallback@a_ptr a_ptr `*.27(v  1 a 1 3 ]
+"31
+} 0
+"26 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\timer.c
+[v _SysTimer_start SysTimer_start `(v  1 e 1 0 ]
+{
+"31
+} 0
+"69 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Os.c
+[v _Os_sch Os_sch `(v  1 e 1 0 ]
+{
+"95
+} 0
+"82 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ElectricWaterHeater.c
+[v _TempSensing_Task TempSensing_Task `(v  1 e 1 0 ]
+{
+"97
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 1 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 3 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 5 ]
+"30
+} 0
+"52 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ElectricWaterHeater.c
+[v _SW_Task SW_Task `(v  1 e 1 0 ]
+{
+"74
+} 0
+"48 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\SW.c
+[v _SW_UpdateStates SW_UpdateStates `(uc  1 e 1 0 ]
+{
+"49
+[v SW_UpdateStates@itr itr `uc  1 a 1 4 ]
+"50
+[v SW_UpdateStates@new_pressed_Sw_flag new_pressed_Sw_flag `uc  1 a 1 3 ]
+"59
+} 0
+"192 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ElectricWaterHeater.c
+[v _EWH_updateState EWH_updateState `(v  1 e 1 0 ]
+{
+"208
+} 0
+"161
+[v _TempSetting_State TempSetting_State `(v  1 e 1 0 ]
+{
+"184
+} 0
+"64 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\SW.c
+[v _SW_updateSamples SW_updateSamples `(v  1 e 1 0 ]
+{
+"68
+} 0
+"32
+[v _SW_updateState SW_updateState `(v  1 e 1 0 ]
+{
+[v SW_updateState@sw_index sw_index `uc  1 a 1 wreg ]
+"33
+[v SW_updateState@sw_state sw_state `uc  1 a 1 9 ]
+"32
+[v SW_updateState@sw_index sw_index `uc  1 a 1 wreg ]
+[v SW_updateState@sw_index sw_index `uc  1 a 1 10 ]
+"47
+} 0
+"202 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\DIO.c
+[v _Dio_ReadChannel Dio_ReadChannel `(uc  1 e 1 0 ]
+{
+[v Dio_ReadChannel@ChannelId ChannelId `uc  1 a 1 wreg ]
+"204
+[v Dio_ReadChannel@pin_ptr pin_ptr `*.39VEuc  1 a 2 2 ]
+"206
+[v Dio_ReadChannel@error error `uc  1 a 1 1 ]
+"205
+[v Dio_ReadChannel@ChannelLevel ChannelLevel `uc  1 a 1 0 ]
+"202
+[v Dio_ReadChannel@ChannelId ChannelId `uc  1 a 1 wreg ]
+"204
+[v Dio_ReadChannel@ChannelId ChannelId `uc  1 a 1 4 ]
+"248
+} 0
+"61 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\SW.c
+[v _SW_getState SW_getState `(uc  1 e 1 0 ]
+{
+[v SW_getState@sw_index sw_index `uc  1 a 1 wreg ]
+[v SW_getState@sw_index sw_index `uc  1 a 1 wreg ]
+[v SW_getState@sw_index sw_index `uc  1 a 1 3 ]
+"63
+} 0
+"132 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ElectricWaterHeater.c
+[v _TempControl_State TempControl_State `(v  1 e 1 0 ]
+{
+"153
+} 0
+"30 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Heater.c
+[v _Heater_On Heater_On `(v  1 e 1 0 ]
+{
+"32
+} 0
+"31 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\fan.c
+[v _Fan_On Fan_On `(v  1 e 1 0 ]
+{
+"33
+} 0
+"104 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ElectricWaterHeater.c
+[v _Display_Task Display_Task `(v  1 e 1 0 ]
+{
+"116
+} 0
+"72 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\SSD.c
+[v _Disp_updateValue_blink Disp_updateValue_blink `(v  1 e 1 0 ]
+{
+[v Disp_updateValue_blink@value value `uc  1 a 1 wreg ]
+[v Disp_updateValue_blink@value value `uc  1 a 1 wreg ]
+"73
+[v Disp_updateValue_blink@blink blink `us  1 s 2 blink ]
+[v Disp_updateValue_blink@value value `uc  1 a 1 14 ]
+"85
+} 0
+"56
+[v _Disp_updateValue Disp_updateValue `(v  1 e 1 0 ]
+{
+[v Disp_updateValue@value value `uc  1 a 1 wreg ]
+[v Disp_updateValue@value value `uc  1 a 1 wreg ]
+[v Disp_updateValue@value value `uc  1 a 1 7 ]
+"65
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 1 ]
+[v ___awmod@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 3 ]
+[v ___awmod@dividend dividend `i  1 p 2 5 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 3 ]
+[v ___awdiv@dividend dividend `i  1 p 2 5 ]
+"41
+} 0
+"42 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\DIO.c
+[v _Dio_WritePort Dio_WritePort `(v  1 e 1 0 ]
+{
+[v Dio_WritePort@PortId PortId `uc  1 a 1 wreg ]
+"44
+[v Dio_WritePort@port_ptr port_ptr `*.39VEuc  1 a 2 10 ]
+"45
+[v Dio_WritePort@error error `uc  1 a 1 8 ]
+"42
+[v Dio_WritePort@PortId PortId `uc  1 a 1 wreg ]
+[v Dio_WritePort@Level Level `uc  1 p 1 4 ]
+"44
+[v Dio_WritePort@PortId PortId `uc  1 a 1 9 ]
+"91
+} 0
+"67 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\SSD.c
+[v _Disp_turnDiplaysOff Disp_turnDiplaysOff `(v  1 e 1 0 ]
+{
+"69
+} 0
+"118 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ElectricWaterHeater.c
+[v _Active_Task Active_Task `(v  1 e 1 0 ]
+{
+"124
+} 0
+"216
+[v _EWH_initTask EWH_initTask `(v  1 e 1 0 ]
+{
+"238
+} 0
+"8 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\external_eeprom.c
+[v _externalEEPROM_writeU8Data externalEEPROM_writeU8Data `(v  1 e 1 0 ]
+{
+[v externalEEPROM_writeU8Data@Data Data `uc  1 a 1 wreg ]
+[v externalEEPROM_writeU8Data@Data Data `uc  1 a 1 wreg ]
+[v externalEEPROM_writeU8Data@Addr Addr `uc  1 p 1 4 ]
+"10
+[v externalEEPROM_writeU8Data@Data Data `uc  1 a 1 5 ]
+"15
+} 0
+"70 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\i2c.c
+[v _I2C_Write I2C_Write `(v  1 e 1 0 ]
+{
+[v I2C_Write@v_i2cData_u8 v_i2cData_u8 `uc  1 a 1 wreg ]
+[v I2C_Write@v_i2cData_u8 v_i2cData_u8 `uc  1 a 1 wreg ]
+"73
+[v I2C_Write@v_i2cData_u8 v_i2cData_u8 `uc  1 a 1 3 ]
+"76
+} 0
+"21
+[v _i2c_WaitForIdle i2c_WaitForIdle `(v  1 s 1 i2c_WaitForIdle ]
+{
+"25
+} 0
+"63
+[v _I2C_Stop I2C_Stop `(v  1 e 1 0 ]
+{
+"67
+} 0
+"57
+[v _I2C_Start I2C_Start `(v  1 e 1 0 ]
+{
+"62
+} 0
+"4 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\external_eeprom.c
+[v _externalEEPROM_init externalEEPROM_init `(v  1 e 1 0 ]
+{
+"7
+} 0
+"43 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\i2c.c
+[v _I2C_Init I2C_Init `(v  1 e 1 0 ]
+{
+"49
+} 0
+"9
+[v _I2c_setConfigurations I2c_setConfigurations `(v  1 e 1 0 ]
+{
+"19
+} 0
+"28 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\SW.c
+[v _SW_init SW_init `(v  1 e 1 0 ]
+{
+"30
+} 0
+"18
+[v _SW_setConfigurations SW_setConfigurations `(v  1 s 1 SW_setConfigurations ]
+{
+[s S141 . 3 `uc 1 port 1 0 `uc 1 pin_num 1 1 `uc 1 direction 1 2 ]
+[s S219 . 9 `[3]S141 1 SW_configured_channels 9 0 ]
+[v SW_setConfigurations@config_PTR config_PTR `*.4S219  1 a 1 wreg ]
+"19
+[v SW_setConfigurations@itr itr `uc  1 a 1 1 ]
+"18
+[v SW_setConfigurations@config_PTR config_PTR `*.4S219  1 a 1 wreg ]
+[v SW_setConfigurations@config_PTR config_PTR `*.4S219  1 a 1 0 ]
+"26
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 4 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 3 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 5 ]
+"51
+} 0
+"27 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\LM35.c
+[v _LM35_ReadTemp LM35_ReadTemp `(us  1 e 2 0 ]
+{
+"31
+[v LM35_ReadTemp@volt volt `f  1 a 4 69 ]
+"30
+[v LM35_ReadTemp@dig dig `f  1 a 4 63 ]
+"29
+[v LM35_ReadTemp@temp temp `us  1 a 2 67 ]
+"37
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 13 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 12 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 3 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 11 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 40 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 39 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 31 ]
+"70
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S906 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S911 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S914 . 4 `l 1 i 4 0 `d 1 f 4 0 `S906 1 fAsBytes 4 0 `S911 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S914  1 a 4 25 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 19 ]
+[s S983 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S986 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S983 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S986  1 a 2 29 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 24 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 23 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 18 ]
+"8
+[v ___flmul@b b `d  1 p 4 5 ]
+[v ___flmul@a a `d  1 p 4 9 ]
+"205
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 2 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 0 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 3 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 4 ]
+"60
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 51 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 44 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 49 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 56 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 55 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 48 ]
+"8
+[v ___fldiv@a a `d  1 p 4 31 ]
+[v ___fldiv@b b `d  1 p 4 35 ]
+"185
+} 0
+"42 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ADC.c
+[v _Adc_readChannel Adc_readChannel `(us  1 e 2 0 ]
+{
+[v Adc_readChannel@channel channel `E864  1 a 1 wreg ]
+"43
+[v Adc_readChannel@Adc_result Adc_result `us  1 a 2 1 ]
+"42
+[v Adc_readChannel@channel channel `E864  1 a 1 wreg ]
+[v Adc_readChannel@channel channel `E864  1 a 1 0 ]
+"56
+} 0
+"22 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\LM35.c
+[v _LM35_Init LM35_Init `(v  1 e 1 0 ]
+{
+"26
+} 0
+"16
+[v _lm35_setConfigurations lm35_setConfigurations `(v  1 s 1 lm35_setConfigurations ]
+{
+"21
+} 0
+"24 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Led.c
+[v _LED_init LED_init `(v  1 e 1 0 ]
+{
+"29
+} 0
+"17
+[v _LED_setConfigurations LED_setConfigurations `(v  1 s 1 LED_setConfigurations ]
+{
+"22
+} 0
+"24 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Heater.c
+[v _Heater_init Heater_init `(v  1 e 1 0 ]
+{
+"28
+} 0
+"17
+[v _Heater_setConfigurations Heater_setConfigurations `(v  1 s 1 Heater_setConfigurations ]
+{
+"22
+} 0
+"34
+[v _Heater_Off Heater_Off `(v  1 e 1 0 ]
+{
+"36
+} 0
+"25 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\fan.c
+[v _Fan_init Fan_init `(v  1 e 1 0 ]
+{
+"29
+} 0
+"18
+[v _fan_setConfigurations fan_setConfigurations `(v  1 s 1 fan_setConfigurations ]
+{
+"23
+} 0
+"35
+[v _Fan_Off Fan_Off `(v  1 e 1 0 ]
+{
+"37
+} 0
+"142 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\DIO.c
+[v _Dio_WriteChannel Dio_WriteChannel `(v  1 e 1 0 ]
+{
+[v Dio_WriteChannel@ChannelId ChannelId `uc  1 a 1 wreg ]
+"143
+[v Dio_WriteChannel@port_ptr port_ptr `*.39VEuc  1 a 2 1 ]
+"144
+[v Dio_WriteChannel@error error `uc  1 a 1 0 ]
+"142
+[v Dio_WriteChannel@ChannelId ChannelId `uc  1 a 1 wreg ]
+[v Dio_WriteChannel@Level Level `uc  1 p 1 3 ]
+[v Dio_WriteChannel@ChannelId ChannelId `uc  1 a 1 3 ]
+"201
+} 0
+"48 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\SSD.c
+[v _Disp_init Disp_init `(v  1 e 1 0 ]
+{
+"54
+} 0
+"33
+[v _SSD_setConfigurations SSD_setConfigurations `(v  1 s 1 SSD_setConfigurations ]
+{
+"46
+} 0
+"36 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Port.c
+[v _Port_SetPortDirection Port_SetPortDirection `(v  1 e 1 0 ]
+{
+[s S201 . 2 `uc 1 port 1 0 `uc 1 direction 1 1 ]
+[v Port_SetPortDirection@ConfigPtr ConfigPtr `*.4DCS201  1 a 1 wreg ]
+"37
+[v Port_SetPortDirection@DDR_Ptr DDR_Ptr `*.39VEuc  1 a 2 5 ]
+"36
+[v Port_SetPortDirection@ConfigPtr ConfigPtr `*.4DCS201  1 a 1 wreg ]
+[v Port_SetPortDirection@ConfigPtr ConfigPtr `*.4DCS201  1 a 1 7 ]
+"57
+} 0
+"14
+[v _Port_SetDirection Port_SetDirection `(v  1 e 1 0 ]
+{
+[s S141 . 3 `uc 1 port 1 0 `uc 1 pin_num 1 1 `uc 1 direction 1 2 ]
+[v Port_SetDirection@ConfigPtr ConfigPtr `*.4DCS141  1 a 1 wreg ]
+"15
+[v Port_SetDirection@DDR_Ptr DDR_Ptr `*.39VEuc  1 a 2 5 ]
+"14
+[v Port_SetDirection@ConfigPtr ConfigPtr `*.4DCS141  1 a 1 wreg ]
+[v Port_SetDirection@ConfigPtr ConfigPtr `*.4DCS141  1 a 1 7 ]
+"34
+} 0
+"14 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\DIO.c
+[v _Dio_Init Dio_Init `(v  1 e 1 0 ]
+{
+[s S83 . 2 `uc 1 port_number 1 0 `uc 1 channel_number 1 1 ]
+[s S86 . 17 `[8]S83 1 Dio_channels 16 0 `[1]uc 1 Dio_ports 1 16 ]
+[v Dio_Init@ConfigPtr ConfigPtr `*.4DCS86  1 a 1 wreg ]
+"15
+[v Dio_Init@error error `uc  1 a 1 3 ]
+"14
+[v Dio_Init@ConfigPtr ConfigPtr `*.4DCS86  1 a 1 wreg ]
+[v Dio_Init@ConfigPtr ConfigPtr `*.4DCS86  1 a 1 4 ]
+"39
+} 0
+"23 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\ADC.c
+[v _Adc_init Adc_init `(v  1 e 1 0 ]
+{
+[s S34 . 2 `E874 1 prescale 1 0 `E860 1 aligment 1 1 ]
+[v Adc_init@Config_Ptr Config_Ptr `*.24DCS34  1 a 1 wreg ]
+[v Adc_init@Config_Ptr Config_Ptr `*.24DCS34  1 a 1 wreg ]
+[v Adc_init@Config_Ptr Config_Ptr `*.24DCS34  1 a 1 5 ]
+"40
+} 0
+"8 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\INTHandelrs.c
+[v _Main_ISR Main_ISR `II(v  1 e 1 0 ]
+{
+"27
+} 0
+"38 C:\Users\SAmohsen\Desktop\Electric_Water_Heater.X\Os.c
+[v _Os_newTimerTick Os_newTimerTick `(v  1 e 1 0 ]
+{
+"66
+} 0
